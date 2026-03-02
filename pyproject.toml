@@ -1,0 +1,14 @@
+[project]
+name = "ai-portrait-studio"
+version = "0.1.0"
+description = "AI Portrait Studio modular inference system"
+authors = [{ name = "Shravan Kumar" }]
+dependencies = [
+    "streamlit",
+    "rembg",
+    "pillow"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
